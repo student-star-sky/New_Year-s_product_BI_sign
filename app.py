@@ -666,4 +666,4 @@ if __name__ == '__main__':
             server.logger.info("Data imported successfully!")
         else:
             server.logger.info("Database already contains data, skipping import.")
-    server.run(debug=True, host='0.0.0.0', port=5000)
+    # server.run(debug=True, host='0.0.0.0', port=5000)
